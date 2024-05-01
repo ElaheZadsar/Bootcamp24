@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(33, 33, 33);
+    color: white;
+  }
+  
+  header {
+    font-size: 13px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-top: 25px;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+}
+  
+.box1:hover {
+    text-decoration: underline;
+}
+.box2{
+    height: 24px;
+    width: 24px;
+    border: none;
+    display: none \9;
+    fill: white;
+    position: relative;
+    display: inline-block;
+}
+  
+  .box2 .Ga {
+    visibility: hidden;
+    width: 100px;
+    font-size: 10px;
+    white-space: nowrap;
+    margin-left: -16px;
+    color: #fff;
+    border-radius: 6px;
+    z-index: 1;
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+  }
+  
+  .box2:hover .Ga {
+    visibility: visible;
+  }
+    .box3 {
+    font-size: medium;
+    height: 25px;
+    width: 25px;
+    border: 3px solid rgb(139, 195, 74);
+    background-color: rgb(139, 195, 74);
+    color: rgb(241, 248, 233);
+    align-content: center;
+    text-align: center;
+    border-radius: 100%;
+  }
+    .Logo {
+    font-size: 90px;
+    margin-top: 35px;
+    text-align: center;
+  }
+    .searchBox {
+    display: flex;
+    position: relative;
+    height: 45px;
+    width: 585px;
+    text-align: center;
+    margin: 30px auto auto;
+    border: 1px solid #333438;
+    border-radius: 50px;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+    fill: rgb(117, 117, 117);
+    padding-left: 15px;
+    padding-top: 13px;
+  }
+  
+  .searchBar {
+    height: 25px;
+    width: 465px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(33, 33, 33);
+    border: none;
+    outline: none;
+    color: #fff;
+  }
+  
+  .searchBar:focus {
+    color: #fff;
+    font-size: 17px;
+  }
+    .center {
+    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .button {
+    font-size: 14px;
+    height: 37px;
+    width: 147px;
+    border: none;
+    background-color: #2a2d2c;
+    color: #e8eaed;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #2a2d2c;
+    font-size: 14px;
+    unicode-bidi: isolate;
+  }
+  
+  .leftFooter {
+    gap: 20px;
+    text-align: left;
+    margin: auto 20px;
+  }
+  
+  .rightFooter {
+    align-content: right;
+    margin: auto 20px;
+  }
+  
+  .Left .Right {
+    padding: 15px;
+    margin: 0 5px;
+  }
+  
+  .Left:hover {
+    text-decoration: underline;
+  }
+  
+  .Right:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      font-size: 11px;
+      height: 18px;
+      margin-top: 20px;
+      gap: 12px;
+    }
+  
+    .searchBox {
+      height: 40px;
+      width: 90%;
+      margin: 20px auto auto;
+    }
+  
+    .searchBar {
+      width: 80%;
+    }
+  
+    .center {
+      margin-top: 20px;
+    }
+  
+    .button {
+      font-size: 12px;
+      height: 32px;
+      width: 120px;
+    }
+  
+    footer {
+      height: 40px;
+      font-size: 12px;
+    }
+  
+    .leftFooter,
+    .rightFooter {
+      margin: auto 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      font-size: 10px;
+      height: 16px;
+      margin-top: 15px;
+      gap: 10px;
+    }
+  
+    .searchBox {
+      height: 35px;
+      width: 90%;
+      margin: 15px auto auto;
+    }
+  
+    .searchBar {
+      width: 70%;
+    }
+  
+    .center {
+      margin-top: 15px;
+    }
+  
+    .button {
+      font-size: 11px;
+      height: 28px;
+      width: 100px;
+    }
+  
+    footer {
+      height: 35px;
+      font-size: 10px;
+    }
+  
+    .leftFooter,
+    .rightFooter {
+      margin: auto 10px;
+    }
+  }
