@@ -1,0 +1,114 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgb(250, 250, 250);
+    background-image: url(https://mrwallpaper.com/images/hd/4k-nature-vivid-landscape-6ki7pp0ul2gfta76.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+a:hover {
+    font-weight: 500;
+}
+header{
+    display: flex;
+}
+.headLeft{
+    display: flex;
+    align-content: center;
+    gap: 40px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.dropDown {
+    display: block;
+    position: relative;
+}
+button{
+    fill: white;
+    border: none;
+    background: none;
+}
+.dropDownOptions {
+    display: none;
+    background-color:#fff;
+    border-radius:4px;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropDown:hover .dropDownOptions {
+    display: block;
+}
+
+.dropDownOptions a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    padding:10px 50px;
+}
+
+.dropDownOptions a:hover {
+    color: #0a0a23;
+    background-color: #ddd;
+    border-radius:5px;
+}
+.headRight{
+    width: 100%;
+    margin-left: -100px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    gap: 30px;
+}
+.icon{
+    transform: translate(6%, 31%);
+}
+.Mobile{
+    margin-top: -12px;
+}
+.searchBox {
+    height: 52px;
+    width: 596px;
+    margin: 40px auto auto;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 24px;
+    display: flex;
+    gap : 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff; 
+    padding-right: 10px;
+    padding-left: 10px;
+    position: sticky;
+}
+.searchBar{
+    width: 470px;
+    height: 24px;
+
+}
+input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.icon4{
+    background-image: url(https://www.bing.com/rp/29PIludr0ouX7uObDIN9ORIKUhg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    float: right;
+    margin-right: 400px;
+    margin-top: -47px;
+    position: sticky;
+}
